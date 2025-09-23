@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contacts</title>
+</head>
+
+<body>
+    <header></header>
+    <nav>
+        <ul style="list-style-type: none; display: flex; gap: 7px;">
+            <li><a href="./fav-lists.html">FavLists</a></li>
+            <li><a href="./index.html">Home Page</a></li>
+            <li><a href="./test.html">Testing</a></li>
+            <li><a href="./planner-tables.html">Tables</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form action="#" method="get">
+            <fieldset>
+                <legend>Contact Form</legend>
+
+                <label for="name">Name:<br />
+                    <input type="text" id="name" name="name" />
+                </label>
+                <br />
+
+                <label for="email">Email:<br />
+                    <input type="email" id="email" name="email" />
+                </label>
+                <br />
+                <br />
+
+                <label for="subject">Subject:<br />
+                    <select id="subject" name="subject">
+                        <option value="general">General Inquiry</option>
+                        <option value="collaboration">Project Collaboration</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="other">Other</option>
+                    </select>
+                </label>
+
+                <br />
+                <br />
+
+                <label for="message">Message:<br />
+                    <textarea id="message" name="message" rows="5" cols="40"></textarea>
+                </label>
+                <br />
+
+                <input type="submit" value="Submit" />
+                <input type="reset" value="Reset" />
+
+            </fieldset>
+        </form>
+
+        <br />
+        <br />
+        <br />
+
+        <form action="#" method="get">
+            <fieldset>
+                <legend>Site Experience Survey</legend>
+
+                <label for="discover">How did you find my portfolio?<br />
+                    <select id="discover" name="discover">
+                        <option value="google">Google Search</option>
+                        <option value="social">Social Media</option>
+                        <option value="referral">Referral</option>
+                        <option value="other">Other</option>
+                    </select>
+                </label>
+                <br />
+
+
+                <label>Rate your overall experience on my site:<br />
+                    <input type="radio" name="rating" value="1" /> 1
+                    <input type="radio" name="rating" value="2" /> 2
+                    <input type="radio" name="rating" value="3" /> 3
+                    <input type="radio" name="rating" value="4" /> 4
+                    <input type="radio" name="rating" value="5" /> 5
+                </label>
+                <br />
+                <br />
+
+                <label for="comments">Any additional comments?<br />
+                    <textarea id="comments" name="comments" rows="4" cols="40"></textarea>
+                </label>
+
+                <br />
+
+                <br />
+
+                <input type="submit" value="Submit Survey" />
+                <input type="reset" value="Reset Survey" />
+
+            </fieldset>
+        </form>
+
+
+    </main>
+
+    <footer>
+    </footer>
+
+
+</body>
+
+</html>
