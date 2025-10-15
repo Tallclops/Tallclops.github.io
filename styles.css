@@ -1,3 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+
+/* padding types 4pc, 4px 2px, 8px 2px 4px */
+/* the first is all directions, 2 is top/bottom then left/right */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
 body {
-    background-color: rgb(40, 40, 40);
+    background-color: rgb(220, 220, 220);
+    color: snow;
+    font-family: "Creepster", system-ui;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 1rem 2rem;
+    padding: 1rem;
+    border: white 1px solid;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0.4rem;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+}
+
+main {
+    box-shadow: 0 0 10px rgba(80, 80, 80, 0.1);
+    width: fit-content;
+    height: fit-content;
+    padding: 0.4rem 1.2rem;
+    margin: 2em auto;
+    border-radius: 1em;
+    background-color: rgb(240, 240, 240);
+    border-top: white 1px solid;
+}
+
+h1 {
+    font-size: 2em;
+    color: orchid;
+}
+
+p::first-letter {
+    font-size: 2rem;
+}
+
+p {
+    min-height: 50px;
+    max-height: 80px;
+    overflow: scroll;
+    border: 1px dotted grey;
+    color: black;
+}
+
+h2 {
+    color: #0088dd;
+    border-bottom: ipx solid #0088dd;
+}
+
+h2,
+p {
+    width: 400px;
+    font-size: 90%;
+    line-height: 1.2 em;
+}
+
+h3 {
+    color: black;
+}
+
+nav {
+    background-color: rgb(83, 75, 75);
+}
+
+li {
+    color: rgb(40, 157, 120);
+}
+
+a:link {
+    color: orange
+}
+
+a:visited {
+    color: rgb(226, 70, 96)
+}
+
+a:hover {
+    color: aqua
+}
+
+#pykraken {
+    color: rgb(86, 180, 95);
+    font-style: italic;
+}
+
+#css {
+    color: red;
+    font-weight: bold;
 }
