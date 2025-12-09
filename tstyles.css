@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Exo 2", sans-serif;
+}
+
+nav>ul {
+    background-color: white;
+    list-style: none;
+
+
+    display: flex;
+    gap: 2.5rem;
+
+    justify-content: center;
+    /* Horizantal Align */
+
+    align-items: center;
+    /* vertical Align */
+
+
+    padding-left: 0%;
+    margin: 0%;
+    height: 4rem;
+}
+
+body {
+    background-color: #a5d8d3;
+}
+
+section {
+    background-color: pink;
+    padding: 3%;
+    margin: 4%;
+}
